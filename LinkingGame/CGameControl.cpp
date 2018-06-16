@@ -53,9 +53,17 @@ bool  CGameControl::Link(Vertex avPath[4],int &nVexNum )
 	if (CGameLogic::IsLink(m_graph, m_ptSelFir, m_ptSelSec))
 	{
 		CGameLogic::Clear(m_graph, m_ptSelFir, m_ptSelSec);//Яћзг
-		nVexNum = CGameLogic::GetVexPath(avPath);
+		nVexNum=CGameLogic::GetVexPath(avPath);
 	}
 	else
 		return false;
+}
+bool  CGameControl::IsWin()
+{
+	if (CGameLogic::IsBlank(m_graph))
+	{
+		m_graph.ClearGraph();
+		return true;
+	}
 }
 

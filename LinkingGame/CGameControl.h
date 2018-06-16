@@ -17,5 +17,6 @@ public:
 	static void SetSecondPoint(int nRow, int nCol);
 	static bool IsRepeatPoint();
 	static bool Link(Vertex avPath[4], int &nVexNum);
+	static bool IsWin();
 };
 

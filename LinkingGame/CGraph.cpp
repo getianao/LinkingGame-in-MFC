@@ -14,17 +14,26 @@ CGraph::~CGraph()
  
 void CGraph::InitGraph()
 {
-	for (int i = 0; i < m_nVexNum; i++)
+	for (int i = 0; i < nVexNum; i++)
 	{
+		flag[i] = 0;
 		m_Vertices[i] = -1;
-		for (int j = 0; j < m_nVexNum; j++)
+		for (int j = 0; j < nVexNum; j++)
 			m_AdjMatrix[i][j] = 0;
 	}
 }
+void CGraph::freshFlag()
+{
+	for (int i = 0; i < nVexNum; i++)
+	{
+		flag[i] = 0;
+	}
+}
+//Ìí¼Ó¶¥µã
 int CGraph::AddVertex(int info)
 {
-	m_Vertices[m_nVexNum] = info;
-	return ++m_nVexNum;
+	m_Vertices[nVexNum] = info;
+	return ++nVexNum;
 }
 void CGraph::AddArc(int nv1Index,int nv2Index)
 {
@@ -34,4 +43,8 @@ void CGraph::AddArc(int nv1Index,int nv2Index)
 int CGraph::GetVertex(int nIndex)
 {
 	return m_Vertices[nIndex];
+}
+void CGraph::ClearGraph()
+{
+	InitGraph();
 }
