@@ -183,24 +183,46 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CBasicGame.h" />
+    <ClInclude Include="CConfig.h" />
+    <ClInclude Include="CConfigLogic.h" />
+    <ClInclude Include="CEasyGame.h" />
     <ClInclude Include="CGameControl.h" />
     <ClInclude Include="CGameDlg.h" />
     <ClInclude Include="CGameLogic.h" />
     <ClInclude Include="CGraph.h" />
+    <ClInclude Include="CHelpDialog.h" />
+    <ClInclude Include="CRankDlg.h" />
+    <ClInclude Include="CRight.h" />
+    <ClInclude Include="CScoreLogic.h" />
+    <ClInclude Include="CSettingDlg.h" />
+    <ClInclude Include="CThemeOptionDlg.h" />
     <ClInclude Include="global.h" />
     <ClInclude Include="LinkingGame.h" />
     <ClInclude Include="LinkingGameDlg.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScoreDao.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CBasicGame.cpp" />
+    <ClCompile Include="CConfig.cpp" />
+    <ClCompile Include="CConfigLogic.cpp" />
+    <ClCompile Include="CEasyGame.cpp" />
     <ClCompile Include="CGameControl.cpp" />
     <ClCompile Include="CGameDlg.cpp" />
     <ClCompile Include="CGameLogic.cpp" />
     <ClCompile Include="CGraph.cpp" />
+    <ClCompile Include="CHelpDialog.cpp" />
+    <ClCompile Include="CRankDlg.cpp" />
+    <ClCompile Include="CRight.cpp" />
+    <ClCompile Include="CScoreLogic.cpp" />
+    <ClCompile Include="CSettingDlg.cpp" />
+    <ClCompile Include="CThemeOptionDlg.cpp" />
     <ClCompile Include="LinkingGame.cpp" />
     <ClCompile Include="LinkingGameDlg.cpp" />
+    <ClCompile Include="ScoreDao.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -221,6 +243,9 @@
     <Image Include="res\IDB_BASIC_MaskBG.bmp" />
     <Image Include="res\IDB_MAIN_BG.bmp" />
     <Image Include="res\LinkingGame.ico" />
+    <Image Include="theme\picture\basic_help.bmp" />
+    <Image Include="theme\picture\basic_help2.bmp" />
+    <Image Include="theme\picture\birds_element.bmp" />
     <Image Include="theme\picture\game_bg.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

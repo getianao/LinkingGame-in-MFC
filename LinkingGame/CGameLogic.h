@@ -22,6 +22,10 @@ public:
 
 	static bool IsBlank(CGraph & g);
 
+	static bool SearchValidPath(CGraph & g);
+
+	static void ResetGraph(CGraph & m_graph);
+
 	static Vertex m_avPath[4];
 	static int m_nVexNum;//路径栈中的顶点个数，用于绘制路径
 };

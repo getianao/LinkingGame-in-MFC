@@ -1,5 +1,6 @@
 #pragma once
-#define MAX_VERTEX_NUM 16
+#include "global.h"
+//#define MAX_VERTEX_NUM 16
 	typedef int Vertices[MAX_VERTEX_NUM];
 	typedef bool AdjMatrix[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
 class CGraph

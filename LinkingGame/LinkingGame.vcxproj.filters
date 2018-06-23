@@ -45,6 +45,39 @@
     <ClInclude Include="CGraph.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CHelpDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasicGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CEasyGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CScoreLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreDao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CThemeOptionDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfigLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinkingGame.cpp">
@@ -66,6 +99,39 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHelpDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasicGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CEasyGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CScoreLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreDao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CThemeOptionDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfigLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -99,6 +165,15 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\IDB_BASIC_MaskBG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="theme\picture\birds_element.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="theme\picture\basic_help.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="theme\picture\basic_help2.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
